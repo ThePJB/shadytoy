@@ -373,7 +373,7 @@ fn main() {
 
         let event_loop = glutin::event_loop::EventLoop::new();
         let window_builder = glutin::window::WindowBuilder::new()
-                .with_title("conjob")
+                .with_title("shadytoy")
                 .with_inner_size(glutin::dpi::PhysicalSize::new(xres, yres));
 
         let window = glutin::ContextBuilder::new()

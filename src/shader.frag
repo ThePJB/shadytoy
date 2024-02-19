@@ -299,6 +299,7 @@ void main() {
         float bw = 0.05;
         float tc = time * 0.8;
         float h = cnoise(vec3(mod(time/10 * time/10, 200)*uv.xy, 0.2 * time));
+        // float h = 2.0 * abs(sin(time) - cnoise(vec3(mod(time/10 * time/10, 200)*uv.xy, 0.2 * time)));
         float c1 = mod(tc, 1.0);
         float c2 = mod((tc + bw), 1.0);
         // theres something dumb about this that I pray I may understand tomorrow
